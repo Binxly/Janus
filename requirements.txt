@@ -5,6 +5,7 @@ accelerate
 sentencepiece
 attrdict
 einops
+gradio
 
 # for gradio demo
 gradio==3.48.0

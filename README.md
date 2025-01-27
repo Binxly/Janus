@@ -123,7 +123,15 @@ permitted under these terms.
 
 ### Installation
 
-On the basis of `Python >= 3.8` environment, install the necessary dependencies by running the following command:
+On the basis of `Python >= 3.8` environment, install the necessary dependencies by running the following commands:
+
+CUDA 12.6:
+
+```shell
+pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126
+```
+
+Install Requirements:
 
 ```shell
 pip install -e .
